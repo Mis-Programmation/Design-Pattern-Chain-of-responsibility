@@ -1,9 +1,11 @@
 public class Directeur extends AbstracTransfertDeDemandeChain {
 
+    final static private int alertTime = 48;
+
     @Override
     public void transfer(Demande demande) {
 
-        if (demande.getTempsEcouler() < 48){
+        if (demande.getTempsEcouler() < alertTime){
             if (transfertDeDemandeChain != null){
                 transfertDeDemandeChain.transfer(demande);
             }
