@@ -1,6 +1,6 @@
 public abstract class AbstracTransfertDeDemandeChain implements ITransfertDeDemandeChain {
 
-    ITransfertDeDemandeChain transfertDeDemandeChain;
+   protected ITransfertDeDemandeChain transfertDeDemandeChain;
 
     @Override
     public void setNextChain(ITransfertDeDemandeChain nextChain) {
