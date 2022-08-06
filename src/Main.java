@@ -9,11 +9,11 @@ public class Main {
                 new TechnicienLogiciel()
         );
 
-        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.LOGICIEL,"12h"));
-        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.MATERIEL,"48h"));
-        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.LOGICIEL,"34h"));
-        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.LOGICIEL,"18h"));
-        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.LOGICIEL,"24h"));
+        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.LOGICIEL,12));
+        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.MATERIEL,48));
+        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.LOGICIEL,34));
+        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.LOGICIEL,18));
+        transferDeDemandeChain.add().transfer(new Demande(DemandeCategories.LOGICIEL,24));
     }
 
 }
